@@ -20,7 +20,8 @@ for( var depName in mainPackage.dependencies ){
     if( program.alternate ){
         console.log( depName );
         console.log( "Source Code : " + dep.homepage );
-        console.log( "License : \n" );
+        console.log( "License Type : " + dep.license );
+        console.log( "License Url : \n" );
     } else {
         t.cell('Library Name', dep.name)
         t.cell('License Type', dep.license ? dep.license : 'NA')
