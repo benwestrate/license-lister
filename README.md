@@ -1,12 +1,15 @@
 # license-lister
 List all Depended on Modules and List there license type
 
-## Install 
+## Install
 ```bash
 npm install -g licens-lister
 ```
 
 ## Usage
+```bash
+  ll -h
+```
 ```bash
   Usage: license-lister [options]
 
