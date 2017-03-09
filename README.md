@@ -1,5 +1,5 @@
 # license-lister
-List all Depended on Modules and List there license type
+List all Depended on Modules and List their license type
 
 ## Install
 ```bash
