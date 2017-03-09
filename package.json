@@ -1,10 +1,10 @@
 {
   "name": "license-lister",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "List all license for your depended on modules ",
   "main": "bin/lister.js",
   "bin": {
-    "license-lister": "lister.js"
+    "llister": "bin/lister.js"
   },
   "dependencies": {
     "commander": "^2.9.0",

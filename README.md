@@ -8,7 +8,7 @@ npm install -g licens-lister
 
 ## Usage
 ```bash
-  ll -h
+  llister -h
 ```
 ```bash
   Usage: license-lister [options]
