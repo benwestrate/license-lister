@@ -1,0 +1,19 @@
+{
+  "name": "node-license-lister",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bin/lister.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "license-lister": "bin/lister.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.9.0",
+    "easy-table": "^1.0.0",
+    "shelljs": "^0.7.7"
+  }
+}
