@@ -1,19 +1,28 @@
 {
   "name": "license-lister",
   "version": "1.0.0",
-  "description": "",
+  "description": "List all license for your depended on modules ",
   "main": "bin/lister.js",
+  "bin": {
+    "license-lister": "lister.js"
+  },
+  "dependencies": {},
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "bin": {
-    "ll": "bin/lister.js"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benwestrate/license-lister.git"
   },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "commander": "^2.9.0",
-    "easy-table": "^1.0.0",
-    "shelljs": "^0.7.7"
-  }
+  "keywords": [
+    "Node",
+    "license"
+  ],
+  "author": "Ben Westrate",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/benwestrate/license-lister/issues"
+  },
+  "homepage": "https://github.com/benwestrate/license-lister#readme"
 }
