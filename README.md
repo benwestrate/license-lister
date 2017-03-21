@@ -3,7 +3,7 @@ List all Depended on Modules and List their license type
 
 ## Install
 ```bash
-npm install -g licens-lister
+npm install -g license-lister
 ```
 
 ## Usage
